@@ -1,0 +1,729 @@
+===== PAGE 1 =====
+科　学　技　术　与　工　程　ISSN 1671—1815
+2026年第26卷第9期
+2026, 26(9):03895-10　Science Technology and Engineering CN 11—4688/T
+DO I:10.12404/j.issn.1671-1815.2503058
+引用格式:昌毅,吴仁彬,何阳,等.静定钢结构中潜在脆性破坏构件重要性程度评估方法[J].科学技术与工程, 2026, 26(9): 3895-3904.
+Chang Yi, W u Renbin, He Yang, etal. Evaluation method ofimportance degree ofpotentialbrittle failure membersin statically determinate
+steelstructures[J]. Science Technology and Engineering, 2026, 26(9): 3895-3904.
+建筑科学
+静定钢结构中潜在脆性破坏构件重要性
+程度评估方法
+昌毅1,2,吴仁彬1,何阳1,李革新3
+(1.东华理工大学土木与建筑工程学院,南昌330013; 2.名古屋大学环境和建筑学研究科,名古屋4648603;
+3.中交第三航务工程局有限公司湖南分公司,株洲412000)
+摘　要　由于钢材的自身缺陷,以及加工工艺或设计等原因,会导致钢材存在裂纹,从而可能造成钢构件的脆性破坏。因此,
+为了避免钢构件脆性破坏导致的严重后果,对钢结构中的潜在脆性破坏构件的重要性程度进行评估就显得尤为重要。通过
+引入风险达成价值分析,对静定结构中的潜在脆性破坏构件的重要性程度展开研究,并提出了重要性程度的评估方法。并进
+一步分析了构件总数量、相关系数、潜在脆性破坏构件的数量、可靠度指标等参数与潜在脆性破坏构件重要性程度之间的关
+系和规律。结果显示:构件总数量、相关系数、潜在脆性破坏构件数量越大,潜在脆性破坏构件的重要性程度越大;构件的可
+靠度指标越高,潜在脆性破坏构件的重要性程度越小。通过在工程实例桁架结构中的应用,不仅证明了所提方法的可行性和
+有效性,也为潜在脆性破坏构件重要性程度的评估提供了理论参考依据。
+关键词　潜在脆性破坏构件;重要性程度;静定结构;相关系数;失效概率
+中图法分类号　TU391;　　　　文献标志码　A
+Evaluation M ethod ofIm portance Degree ofPotentialBrittle Failure
+M em bers in Statically Determ inate SteelStructures
+CHANG Yi1,2, W U Ren-bin1, HE Yang1, LIGe-xin3
+(1.SchoolofCivil& ArchitecturalEngineering, EastChina University ofTechnology, Nanchang330013, China;
+2.DepartmentofEnvironmentalEngineering and Architecture, Nagoya University, Nagoya4648603, Japan;
+3.Third HarborEngineering Bureau Hunan Branch Co., Ltd., CCCC, Zhuzhou 412000, China)
+[Abstract]　Due to inherentdefectsin the steel, aswellasprocessing techniquesordesign issues, there may be cracksin the steel,
+which can potentially lead to brittle failure ofsteelmembers. Therefore, to avoid the severe consequences caused by brittle failure of
+steelmembers, itisparticularly importantto evaluate the importance degree ofpotentialbrittle failure membersin steelstructures. The
+risk achievementworth wasintroduced to study the importance degree ofpotentialbrittle failure membersin statically determinate struc-
+turesand an evaluation method wasproposed forthe importance degree. By analyzing the relationship between parameterssuch as the
+totalnumberofmembers, correlation coefficients, the numberofpotentialbrittle failure members, reliability indices, and the impor-
+tance degree ofpotentialbrittle failure members, relevantpatternshave been summarized. The resultsindicate thatasthe totalnumber
+ofmembers, correlation coefficients, and the numberofpotentialbrittle failure members increase, the importance degree ofpotential
+brittle failure membersalso increases. On the contrary, asthe reliability index increases, the importance degree ofpotentialbrittle fail-
+ure membersdecreases. By applying the method to an engineering case trussstructure, itsfeasibility and effectivenesshave been dem-
+onstrated, and a theoreticalreference forthe evaluation ofsuch issueshave also been provided.
+[K eywords]　potentially brittle failure member; importance level; statically determinate structure; correlation coefficient;
+failure probability
+收稿日期: 2025-04-27修订日期: 2025-09-17
+基金项目:国家自然科学基金(52268020);中国国家留学基金(202308360115);中交第三航务工程局有限公司资助项目(2024-三峡锚建综-
+027)
+第一作者:昌毅(1979—),男,汉族,湖南益阳人,博士,副教授,硕士研究生导师。研究方向:工程结构可靠性分析工程结构抗震分析、结构
+全寿命设计与维护、工程防灾及结构安全。E-mail:changyi000814@ sina.com。
+投稿网址:www.stae.com.cn
+
+===== PAGE 2 =====
+科　学　技　术　与　工　程
+3896 Science Technology and Engineering 2026,26(9)
+静定结构由于内力计算简单、易于设计、施工方管理措施效果的指标,可用来衡量系统中任意构件
+便等因素,被大量应用于工程结构中。由于静定结构的重要性程度。在含n个构件的系统S中,假设任
+中任一构件的失效都会导致整个结构的失效[1-2],所一构件的编号为i,则RAW可通过计算不含构件i
+以静定结构中每个构件都显得尤为重要。而钢构件时系统的失效概率,与含构件i时系统的失效概率
+作为一种典型的塑性材料,具有高强度、高韧性、低造的比值,来衡量构件i的重要性程度。RAW指标的
+价等优点,并且在达到极限承载能力后,其承载能力示意图如图1所示。
+也不会立刻失效[3-5],因此,常被作为静定结构的材此时,构件i的RAW指标为
+料[6-8]。但是由于材料的一些自身缺陷,以及加工工P(i)
+RAW = Snew (1)
+艺或设计的原因等情况,会导致构件内部裂纹的存i P
+S
+在,进而可能造成钢构件因呈现脆性性能而破式中:RAW为构件i的RAW指标,指标的大小反映
+i
+坏[9-13]。这类构件被称为潜在脆性破坏构件[14-15]。了该构件的重要性程度,指标越大,说明该构件的
+重要性程度越高; P(i)为系统S(i)的失效概率,而
+因此,为更好地发挥钢材的塑性性能,防止其在静定
+Snew new
+结构中发生脆性破坏而导致严重后果,需要对结构中系统S(i)不含有构件i; P为系统S的失效概率。
+new S
+的潜在脆性破坏构件的重要性程度进行评估。
+目前,研究构件重要性程度的方法有很多。
+Fussel[16]提出了FV(Fussell-Vesely)重要性指标,用
+于评估单个构件或子系统对整个系统可靠性的贡
+献,从而识别出对系统影响最大的构件或子系统。
+并在此基础上继续提出了FVC (Fussell-Vesely cut
+set)重要性指标,针对系统中的关键剪切集的重要
+性进行衡量。此后,Borgonovo等[17]提出了风险达
+成价值(risk achievementworth,RAW )重要性指标,
+S(i)为不含构件i的系统,其构件总数量为n -1个
+其方法通过计算不含某构件时系统的失效概率与new
+图1　构件i的RAW指标示意图
+所有构件都存在时系统的失效概率的比值,量化出
+Fig.1　Schematic diagram forthe RAW index ofcomponenti
+该构件对系统可靠性的贡献程度,从而判断该构件
+的重要性程度。Vinod等[18]提出了风险降低值
+1.2　潜在脆性破坏构件重要性程度评价
+(risk reduction worth,RRW )重要性指标,通过计算
+当静定钢结构中存在潜在脆性破坏构件时,由
+所有构件均存在时系统的失效概率与将某个构件
+于其有发生脆性破坏的可能,此时的失效情况将变
+替换成完全可靠构件时系统失效概率的比值,从而
+得更为复杂。根据静定钢结构中潜在脆性破坏构
+衡量该构件的重要性程度。
+件数量的不同,将其分为含一个潜在脆性破坏构
+在实际钢结构中,某些构件可能呈现脆性的现
+件、含两个潜在脆性破坏构件和含n个潜在脆性破
+1
+象。而在关于构件重要性的研究中,均假设构件呈
+坏构件3种不同的情况进行分析。
+现完全的塑性性能[19],忽视了构件可能呈现脆性的
+1.2.1　当含一个潜在脆性破坏构件时
+情况。现针对静定结构中的潜在脆性破坏构件的假设由n个构件构成的静定钢结构系统S,且
+重要性程度展开研究,提出评估潜在脆性破坏构件含有一个编号为i的潜在脆性破坏构件。此时,系
+重要性程度的方法,并分析和总结构件总数量、相统S的失效情况可分为如图2所示的两种不同
+关系数、潜在脆性破坏构件的数量、可靠度指标等情况。
+参数与潜在脆性破坏构件重要性程度之间的关系。(1)构件i呈现脆性后的系统S失效。
+1b
+通过将所提方法应用于工程实例桁架结构中,验证(2)构件i呈现塑性后的系统S失效。
+d
+该方法的可行性与有效性,为潜在脆性破坏构件重图2中i表示构件i呈现塑性状态;i表示构件
+d b
+要性程度的评估提供理论依据。i为脆性状态。S中的符号1b表示一个潜在脆性
+1b
+破坏构件为脆性状态,故S为系统S中存在一个为
+1　静定钢结构中构件重要性程度评价
+1b
+脆性状态的潜在脆性破坏构件的情况。S中的符号
+方法d
+d表示所有构件均为塑性状态,故S为系统S中所
+d
+1.1　塑性构件重要性程度评价有构件均为塑性状态的情况。因此,系统S的失效
+风险达成价值(RAW )作为一个用于评价风险概率可表示为
+投稿网址:www.stae.com.cn
+
+===== PAGE 3 =====
+2026,26(9)昌毅,等:静定钢结构中潜在脆性破坏构件重要性程度评估方法3897
+图3中S与S表示在系统中一个潜在脆性
+1b 1b
+1 2
+破坏构件呈现脆性状态,但另一个潜在脆性破坏构
+件呈现脆性状态的情况。其中,S中构件i呈现脆
+1b
+1
+性状态,S中构件j呈现脆性状态。S表示两个潜
+1b 2b
+2
+在脆性破坏构件均呈现脆性状态的情况。同理,S
+d
+表示所有构件均呈现塑性状态的情况。因此,系统
+S的失效概率可表示为
+P = P (1 - P )P + (1 - P )P P +
+S bi bj S bi bj S
+1b1 1b2
+P P P + (1 - P )(1 - P )P (3)
+bi bj S bi bj S
+2b d
+式(3)中:P为构件i为脆性状态的概率;(1 - P )
+图2　系统中含一个潜在脆性破坏构件的失效情况分析图bi bj
+为构件j为塑性状态的概率; P为系统S中潜在
+Fig.2　Failure analysisdiagram ofa system containing a S
+1b1
+componentprone to potentialbrittle fracture脆性破坏构件i为脆性状态,构件j为塑性状态情况
+下的失效概率; (1 - P )为构件i为塑性状态的概
+P = P P + (1 - P )P (2) bi
+S bi S bi S
+1b d率; P为构件j为脆性状态的概率; P为系统S
+式(2)中: P为构件i为脆性状态的概率;P为系bj S
+1b2
+bi S
+1b
+中潜在脆性破坏构件j为脆性状态,构件i为塑性状
+统S中存在一个为脆性状态的潜在脆性破坏构件时
+态情况下的失效概率; P为系统S中两个潜在脆
+的失效概率;(1 - P )为构件i为塑性状态的概率; S
+2b
+bi
+性破坏构件均为脆性状态情况下的失效概率; P
+P为系统S中所有构件均为塑性状态时的失效
+S
+S d
+d
+为系统S中所有构件均为塑性状态情况下的失效
+概率。
+概率。
+从RAW的本质可知,为了计算潜在脆性破坏
+同理,为了计算潜在脆性破坏构件i的重要性
+构件i的重要性程度,需要计算系统S(i)的失效概
+new
+程度,需要计算系统S(i)的失效概率。因为系统S
+率。由于系统S只含有一个潜在脆性破坏构件i,所
+new
+含有两个编号为i和j的潜在脆性破坏构件,所以系
+以系统S(i)中不含潜在脆性破坏构件,那么系统
+new
+统S(i)中只含有一个潜在脆性破坏构件,即构件j。
+S(i)中所有构件均为塑性,故系统S(i)只能在所有构
+new
+new new
+因此,其失效情况可分为如图4所示的两种不同
+件为塑性状态时失效。因此,系统S(i)的失效概率
+new
+情况。
+相当于含n -1个塑性构件时的系统的失效概率。
+(1)构件j呈现脆性后系统S(i)失效。
+1.2.2　当含两个潜在脆性破坏构件时new
+1
+(2)构件j呈现塑性时系统S(i)失效。
+假设由n个构件构成的静定钢结构系统S,且
+new
+2
+在图4中,根据潜在脆性破坏构件j的呈现状
+含有两个编号为i、j的潜在脆性破坏构件,则该系统
+态不同,系统S(i)可分为S(i)和S(i)两种情况。其
+的失效情况可分为如图3所示的4种不同情况。
+new new new
+1 2
+中系统S(i)中构件j为脆性状态,系统S(i)中构件j
+(1)构件i呈现脆性,构件j呈现塑性后系统
+new new
+1 2
+S失效。为塑性状态。因此,系统S(i)的失效概率可表示为
+1b new
+1
+(2)构件i呈现塑性,构件j呈现脆性后系统P(i) = P P(i) + (1 - P )P(i) (4)
+Snew bj Snew bj Snew
+1 2
+S失效。(i)
+式(4)中: P为构件j为脆性状态的概率; P为
+1b
+2 bj Snew
+1
+(3)构件i与构件j均呈现脆性后系统S失效。
+系统S(i)中构件j为脆性状态情况下的失效概率;
+2b
+new
+(4)构件i与构件j均呈现塑性后系统S失效。
+d
+图3　系统中含两个潜在脆性破坏构件的失效情况分析图
+Fig.3　Failure analysisdiagram ofa system containing图4　不含构件i的结构失效情况分析图
+two componentprone to potentialbrittle fracture Fig.4　Diagram ofstructuralfailure withoutcomponenti
+投稿网址:www.stae.com.cn
+
+===== PAGE 4 =====
+(\(\
+科　学　技　术　与　工　程
+3898 Science Technology and Engineering 2026,26(9)
+(1 - P )为构件j为塑性状态的概率;P(i)为系统为脆性状态。
+bj Snew
+2
+(i)同理,由RAW本质可知,为计算潜在脆性破
+S中构件j为塑性状态情况下的失效概率。
+new
+坏构件i的重要性程度,需要计算系统S(i)的失效
+1.2.3　当含n个潜在脆性破坏构件时
+1 new
+同样,考虑由n个构件组成的静定钢结构系统概率。系统S中有n个潜在脆性破坏构件,则系
+1
+S,且含有n个潜在脆性破坏构件,其中n和n表示统S(i)中有(n -1)个潜在脆性破坏构件,每一个
+1 1 new 1
+构件数量,不代表构件在系统中的编号。假设潜在潜在脆性破坏构件均可能呈现塑性或脆性两种状
+脆性破坏构件在系统中的编号分别为i、j、k、…、p、态,其呈现脆性和塑性是相互独立的。所以,系统
+q、r。每一个潜在脆性破坏构件可能呈现脆性和塑S(i)的失效情况有2n -1种,其失效概率如式(6)
+1
+new
+性两种状态,且其呈现脆性状态和塑性状态是相互所示。
+独立的,故含有n个潜在脆性破坏构件的系统S的P(i) = PΠ(1 - P )P(i) +
+1 Snew bj bm Snew
+m∈A;m≠i,m≠j 1
+失效情况共计2n种。因此,含n个潜在脆性破坏构
+1 (i)
+PΠ(1 - P )P +…+
+1
+bk bm Snew
+m∈A;m≠i,m≠k 2
+件的系统S的失效概率可表示为
+PΠ(1 - P )P(i) +
+P = PΠ(1 - P )P + PΠ(1 - P )×br bm Snew
+m∈A;m≠i,m≠r (n1-1)
+S bi bm S bj bm
+m∈A;m≠i 1b1 m∈A;m≠j
+P PΠ(1 - P )P(i) +
+P +…+ PΠ(1 - P )P + bj bk bm Snew
+m∈A;m≠i,m≠j,m≠k n1
+S br bm S
+1b2 m∈A;m≠i 1bn
+1 P PΠ(1 - P )
+P PΠ(1 - P )P + bq br bm
+m∈A;m≠i,m≠q,m≠r
+bi bj bm S
+m∈A;m≠i,m≠j 2b(n +1)
+1 (i)
+P +…+ (1 - P )P…
+P PΠ(1 - P )P +…+ Snew n2+n bj bk
+1 1
+bi bk bm S
+m∈A;m≠i,m≠k 2b(n +2) 2
+1
+P P P(i) +…+
+P PΠ(1 - P )P +…+
+bq br bm S n2+n bq br Snew n -1
+2b 1 (2 1 -n1-1)
+m∈A;m≠q,m≠r 1
+2 (i)
+P P…P (1 - P )P +
+(1 - P )P P…P P P P + bj bk bq br Snew
+(2n1-1-2)
+bi bj bk bp bq br S
+(n1-1)b(2n -n -1)
+1 1 (i)
+P P…P P P +
+P (1 - P )P…P P P P +…+ bj bk bq br Snew n -1
+(2 1 -1)
+bi bj bk bp bq br S
+(n1-1)b(2n -n )
+1 1 (1 - P )(1 - P )…(1 - P )×
+bj bk bq
+P P P…P P (1 - P )P +
+bi bj bk bp bq br S (1 - P )P(i) ,
+(n1-1)b(2n -2)
+1
+br Snew n -1
+(2 1 )
+P P P…P P P P + (1 - P )×
+bi bj bk bp bq br S bi j≠k…p≠q≠r;{j,k…p,q,r}∈A (6)
+n1b
+(1 - P )(1 - P )…(1 - P )(1 - P )×
+式(6)中:A为潜在脆性破坏构件i、j、k、…、p、q、r的
+bj bk bp bq
+(1 - P )P ,i≠j≠k…p≠q≠r;
+集合,m为该集合中的一个元素; P为构件j为脆
+br S
+d
+bj
+{i,j,k…p,q,r}∈A (5)
+性状态的概率; (1 - P )为编号为m的潜在脆性
+bm
+式(5)中:A为潜在脆性破坏构件i、j、k、…、p、q、r
+破坏构件为塑性状态时的概率;P(i)为不含构件i
+Snew
+1
+的集合,m为该集合中的一个元素; P为构件i为
+bi的系统S(i)中构件j为脆性状态下的失效概率,其
+new
+脆性状态的概率; P P为构件i,j同时为脆性状
+bi bj (i)
+中(i)表示不含构件i。以此类推, P为不含
+态的概率;以此类推, P、P、P、…、P、P、P Snew n -1
+(2 1 )
+bi bj bk bp bq br
+构件i的系统S(i)中构件j、k、…、p、q、r均表现为脆
+为构件i、j、k、…、p、q、r同时为脆性状态的概率; new
+性状态时的失效概率。
+(1 - P )为编号为m的潜在脆性破坏构件为塑
+bm
+性状态的概率; P为系统S中含一个潜在脆性2　影响重要性程度参数的对比分析
+S
+1b1
+破坏构件i,且其为脆性状态时的失效概率;S中的
+1
+影响系统中构件重要性的参数有很多,如构件
+1表示有1个潜在脆性破坏构件为塑性状态;b中
+1
+之间的相关性、构件的可靠度指标、构件数量以及
+的1对应潜在脆性破坏构件i为塑性状态时的情
+潜在脆性构件数量等。故需要研究上述参数对潜
+况; P为系统S中含一个潜在脆性破坏构件j,
+S
+1b2在脆性破坏构件重要性程度的影响规律,以及在多
+且其为脆性状态时的失效概率;S中的1表示有1
+1个参数影响下,潜在脆性破坏构件重要性程度的变
+个潜在脆性破坏构件为塑性状态;b中的2对应潜
+2化规律。
+在脆性破坏构件j为塑性状态时的情况。以此类
+由于需要计算的数据量较大以及需要考虑多
+推, P表示系统S中有n - 1个潜在
+S 1个参数的影响,较难得到一个精准的失效概率值,
+(n1-1)b(2n -n -1)
+1 1
+脆性破坏构件,分别为构件i、j、k、…、p、q,且其为
+因此采用更高效的松弛线性规划法(relaxed linear
+脆性状态时的失效概率;S中(n - 1)表示有
+programming,RLP)来计算系统的失效概率边界,即
+(n -1) 1
+1
+(n - 1)个潜在脆性破坏构件,且同时为脆性状[20-21]
+计算出失效概率的上界与下界。因此,潜在脆
+1
+态; b中(2n - 2)对应i、j、k、…、p、q构件均
+1性破坏构件的重要性程度存在上界与下界,分别用
+(2n1-2)
+投稿网址:www.stae.com.cn
+
+===== PAGE 5 =====
+2026,26(9)昌毅,等:静定钢结构中潜在脆性破坏构件重要性程度评估方法3899
+RAW U和RAW L表示。同时,为了更直观地表现出潜
+i i
+在脆性破坏构件的重要性程度变化规律,采用
+RAW平均值RAW表示潜在脆性破坏构件的重要
+i i
+性程度,如式(7)所示。
+RAW U + RAW L
+RAW = i i (7)
+i 2
+2.1　单参数影响下重要性程度分析
+2.1.1　相关系数
+假设在静定钢结构中构件总数量n =8,潜在脆
+性构件数量n =1,可靠度指标β=3.0,脆性发生概
+1
+率P =0.2,当相关系数分别为0.1、0.3、0.5、0.7、
+bi
+0.9时,相关系数与重要性程度的关系图如图5
+图6　构件总数量与重要性程度关系曲线图
+所示。Fig.6　Graph ofthe relationship between totalnumberof
+componentsand degree ofimportance
+2.1.3　可靠度指标
+假设在静定钢结构中构件总数量n = 10,潜在
+脆性构件数量n =1,相关系数ρ=0.1,脆性发生概
+1
+率P =0.2,可靠度指标不同的情况下潜在脆性破
+bi
+坏构件的重要性程度变化规律如图7所示。
+从图7同样可以看出,RAW上界和RAW下界的
+i i
+增幅程度差距较小,并且部分重合。显然采用式(7)
+所示的RAW平均值可以更直观看出在RAW上下界
+i i
+的规律,即在构件总数量、相关系数、潜在脆性破坏构
+件数量等参数一定的情况下,随着可靠度指标的升
+高,潜在脆性破坏构件的重要性程度在不断降低。
+图5　相关系数与重要性程度关系曲线图
+Fig.5　Graph ofthe relationship between correlation
+coefficientand degree ofimportance
+从图5可以看出,RAW的上下界增幅程度存在
+i
+一定的差距,其中,RAW下界的增幅程度要大于
+i
+RAW上界的增幅程度。而采用式(7)所示的RAW
+i i
+平均值则可以很好地代替RAW上下界的本质规
+i
+律,即在构件总数量、可靠度指标、潜在脆性破坏构
+件数量等参数相同的情况下,潜在脆性破坏构件的
+重要性程度随着相关系数的增加而增加。
+2.1.2　构件总数量
+假设在静定钢结构中潜在脆性破坏构件数量
+图7　可靠度指标与重要性程度关系曲线图
+n =1,可靠度指标β= 3.0,相关系数ρ= 0.1,脆性
+1
+Fig.7　Graph ofthe relationship between reliability
+发生概率P =0.2,不同构件总数量下潜在脆性构
+bi
+index and degree ofimportance
+件的重要性程度的变化规律如图6所示。
+从图6中可以看出,RAW上界和RAW下界的增2.1.4　潜在脆性破坏构件数量
+i i
+幅程度差距较小,甚至部分重合。显然采用式(7)所假设在静定钢结构中构件总数量n =8,每个构
+示的RAW平均值也可以直观地看出RAW上下界的件的可靠度指标β= 3.0,构件之间的相关系数ρ=
+i i
+规律,即在潜在脆性破坏构件数量、可靠度指标、相关0.1,脆性发生概率P = 0.2,潜在脆性破坏构件的
+bi
+系数等参数相同的情况下,潜在脆性破坏构件的重要重要性程度随着潜在脆性破坏构件数量的变化规
+性程度随着构件总数量的增加而增加。律如图8所示。
+投稿网址:www.stae.com.cn
+
+===== PAGE 6 =====
+科　学　技　术　与　工　程
+3900 Science Technology and Engineering 2026,26(9)
+从图10中不难发现,在相关系数和可靠度指标
+等参数相同的情况下,RAW平均值随着构件总数量
+i
+及潜在脆性破坏构件数量的增加而增加,即潜在脆
+性破坏构件的重要性程度在不断提高。
+图8　潜在脆性破坏构件数量与重要性程度关系曲线图
+Fig.8　Graph ofthe relationship between numberofpotential
+brittle failure componentsand degree ofimportance
+由图8可以看出,RAW上界和RAW下界的增
+i i图9　相关系数及潜在脆性破坏构件数量与
+幅程度差距非常小,甚至完全重合,显然采用式(7)
+重要性程度关系三维图
+所示的RAW平均值可以很好地反映出RAW上下
+Fig.9　Three-dimensionalgraph ofthe relationship between
+i i
+界的规律。即在构件总数量、相关系数、可靠度指
+correlation index, numberofcomponentswith potentialbrittle
+标等参数相同的情况下,潜在脆性破坏构件的重要fracture, and degree ofimportance
+性程度随着潜在脆性破坏构件数量的增加而增加。
+2.2　多参数影响下重要性程度分析
+在静定钢结构系统中,潜在脆性破坏构件的重
+要性程度不仅受单个参数的影响,而且也受多个参
+数共同的影响。因此,需要研究在相关系数、构件
+总数量等参数的共同影响下,潜在脆性破坏构件重
+要性程度的变化规律。因为在单参数中已经证明
+了采用式(7)所示的RAW平均值更适合表示RAW
+i i
+上下界的规律,所以均采用RAW平均值表示潜在
+i
+脆性破坏构件的重要性程度。
+2.2.1　相关系数和潜在脆性破坏构件数量
+假设在静定钢结构中,构件总数量n = 8,可靠
+度指标β=3.0,脆性发生概率P =0.2。当潜在脆
+图10　潜在脆性破坏构件数量及构件总数量与
+bi
+性破坏构件数量n分别为1、2、3时,潜在脆性破坏重要性程度关系三维图
+1
+构件的重要性程度随着相关系数ρ的变化规律如Fig.10　Three-dimensionalgraph ofthe relationship between
+图9所示。numberofcomponentswith potentialbrittle fracture, totalof
+components, and degree ofimportance
+从图9中不难发现,在构件总数量、可靠度指标
+等参数相同的情况下,RAW平均值随着构件之间的
+2.2.3　构件总数量及相关系数
+i
+相关系数与潜在脆性破坏构件数量的增加而增加,
+假设在静定钢结构中,潜在脆性破坏构件数量
+即潜在脆性破坏构件的重要性程度在不断提高。
+n =1,每个构件的可靠度指标β=3.0,脆性发生概
+1
+2.2.2　构件总数量和潜在脆性破坏构件数量
+率P =0.2。潜在脆性破坏构件重要性程度随着不
+bi
+假设在静定钢结构中,构件之间的相关系数ρ=
+同构件总数量和不同相关系数的变化规律如图11
+0.3,每个构件的可靠度指标β=3.0,脆性发生概率
+所示。
+P =0.2。潜在脆性破坏构件的重要性程度随着构
+从图11中不难发现,在潜在脆性破坏构件数量
+bi
+件总数量及构件之间的相关系数变化规律如图10和可靠度指标等参数不变的情况下,RAW平均值随
+i
+所示。着相关系数和构件总数量的升高而升高,即潜在脆
+投稿网址:www.stae.com.cn
+
+===== PAGE 7 =====
+2026,26(9)昌毅,等:静定钢结构中潜在脆性破坏构件重要性程度评估方法3901
+图13　构件总数量n =11的静定桁架结构内力分布图
+Fig.13　Internalforce distribution diagram ofa statically
+determinate trussstructure with a totalofn =11 members
+图11　构件总数量及相关系数与重要性程度关系三维图
+Fig.11　Three-dimensionalgraph ofthe relationship between
+totalofcomponents, correlation index, and
+degree ofimportance
+性破坏构件的重要性程度也在不断提高。
+3　实例分析
+图14　构件总数量n =7的静定桁架结构图
+3.1　桁架钢结构分析
+Fig.14　Diagram ofa statically determinate truss
+假设一个构件总数量n = 11,其静定桁架结构
+structure with a totalofn =7 members
+如图12所示。因为该静定桁架结构由相邻的4根
+杆件构成的基本单元组成,所以以相邻的4根杆件
+构成的基本单元为单位计算其重要性程度。如
+图12所示,构件1、构件3、构件4、构件5为一组基
+本单元;构件8、构件9、构件10、构件11为一组基本
+单元。选取构件8、构件9、构件10、构件11这组基
+本单元进行研究。假设构件11为潜在脆性破坏构
+件,其脆性发生概率P为0.05,其余构件均呈现塑
+bi
+性,可靠度指标如表1所示。当每个构件的相关系
+数ρ均为0.1时,在外部荷载值F为100 kN的情况
+图15　构件总数量n =7静定桁架结构内力分布图
+下,其内力分布如图13所示。而不含该组构件后的
+Fig.15　Internalforce distribution diagram ofa statically
+静定桁架结构如图14所示,当外部荷载值F仍为
+determinate trussstructure with a totalofn =7 members
+100 kN时,其内力分布如图15所示。
+基于这些条件与数据,采用松弛线性规划法
+表1　各个构件的可靠度指标
+(RLP)计算出含有构件8、构件9、构件10、构件11 Table1　Reliability indicesofindividualcom ponents
+系统的失效概率P为0.002 04;而不含构件8、构件9、构件编号构件状态可靠度指标
+S
+1 ~10塑性3.56
+构件10、构件11的系统的失效概率P(i)为0.001 3。
+Snew
+塑性3.56
+11
+脆性3.36
+由于在该系统里相关系数数值较小,仅为0.1,即构件
+间近乎相互独立,所以计算得出的系统失效概率非常
+接近,此时该组构件的重要性程度RAW为0.638 7。
+在以构件8、构件9、构件10、构件11为基本单
+元的情况下,图16 ~图19为在不同参数影响下,该
+图12　构件总数量n =11的静定桁架结构图
+组构件的重要性程度变化规律。从图16、图17和
+Fig.12　Diagram ofa statically determinate truss
+图19可以看出,在其余参数不变的情况下,该基本
+structure with a totalofn =11 members
+投稿网址:www.stae.com.cn
+
+===== PAGE 8 =====
+科　学　技　术　与　工　程
+3902 Science Technology and Engineering 2026,26(9)
+单元的重要性程度随着构件之间的相关系数、构件
+总数量和潜在脆性破坏构件数量的增加而增加。
+同理,从图18可以发现,在其余参数不变的情况下,
+该基本单元的重要性程度随着每个构件的可靠度
+指标的增加而降低。
+图19　钢桁架结构的潜在脆性破坏构件数量与
+重要性程度关系曲线图
+Fig.19　Graph ofthe relationship between numberof
+potentialbrittle failure componentsand importance
+degree forsteeltrussstructures
+图16　钢桁架结构的相关系数与重要性程度关系曲线图3.2　清水塘大桥实例分析
+Fig.16　Graph ofthe relationship between correlation清水塘大桥位于湖南省株洲市清雨路与清霞路
+coefficientand importance degree for交叉口北侧,向南衔接珠江北路,线路总长约2.175
+steeltrussstructures
+km[22]。桥位航道等级为Ⅱ(3)级,2 000 t级航道。主
+桥结构采用中承式钢桁架拱桥,主跨跨度达608 m,边
+跨与主跨比值为1/4。主跨与边跨的下弦拱轴线均
+以二次抛物线构成,其中主跨矢高为89.914 m,矢跨
+比为1/4.538。图20为清水塘大桥的立面图,并选取
+图20中框选部分的静定钢桁架进行重要性程度分
+析,图21为框选部分钢桁架的分布图示意图。
+同样选取相邻4根杆件作为基本单元进行研
+究,如构件1、构件2、构件3和构件4为一组基本单
+元,构件5、构件6、构件7和构件8为一组基本单
+元,以此类推。其中构件6为潜在脆性破坏构件,其
+脆性发生概率P为0.05,其余构件均为塑性构件。
+bi
+图17　钢桁架结构的构件总数量与重要性程度关系曲线图
+以下将选取构件5、构件6、构件7和构件8这组基
+Fig.17　Graph ofthe relationship between totalnumberof
+本单元进行重要性程度研究。其中每根构件的可
+componentsand importance degree forsteeltrussstructures
+靠度指标如表2所示。
+图20　清水塘大桥立面图
+Fig.20　Qingshuitang Bridge elevation drawing
+图18　钢桁架结构的可靠度指标与重要性程度关系曲线图图中数字为桁架编号
+Fig.18　Graph ofthe relationship between reliability index and图21　部分钢桁架分布图
+importance degree forsteeltrussstructures Fig.21　Partialsteeltrusslayoutdiagram
+投稿网址:www.stae.com.cn
+
+===== PAGE 9 =====
+2026,26(9)昌毅,等:静定钢结构中潜在脆性破坏构件重要性程度评估方法3903
+表2　清水塘大桥部分钢桁架的可靠度指标9520-9528.
+Table2　Reliability index ofpartialsteeltrussin Zhao Chong, Jiang Yuanyuan, Huang Jiahuan, etal. Influence of
+beam end weakening forms on the progressive collapse performance
+Q ingshuitang bridge
+ofsteelframesunderfire[J]. ScienceTechnologyand Engineering,
+构件编号构件状态可靠度指标
+2024, 24(22): 9520-9528.
+1 ~5塑性3.24
+[5]刘梦,孙健巍.建筑结构用高强度钢材力学性能研究[J].中
+塑性3.24
+6
+国住宅设施, 2023(5): 133-135.
+脆性3.04
+Liu M eng, Sun Jianwei. Study on mechanical properties of high
+7 ~33塑性3.24
+strength steelfor building structure[J]. China ResidentialFacili-
+基于以上条件与数据,运用松弛线性规划法ties, 2023(5): 133-135.
+[6]许蔚,史世伦,李晓琴,等.钢结构基本原理[M ].重庆:重庆
+(RLP)可计算出含有构件5、构件6、构件7、构件8
+大学出版社: 2023.
+时整个系统的失效概率P为0.019 17 ~ 0.019 19;
+S Xu W ei,ShiShilun,LiXiaoqin,etal.Fundamentalprinciplesofsteel
+而不含构件5、构件6、构件7、构件8时整个系统的
+structures[M ]. Chongqing: Chongqing University Press,2023.
+失效概率P(i)为0.016 89 ~0.016 90。因此以构件
+[7]陆春振,刘晓光,李永强,等.桥梁用高强钢防断评价研究综
+Snew
+5、构件6、构件7、构件8组成的基本单元的重要性述[J].铁道建筑, 2019, 59(4): 1-10.
+Lu Chunzhen, Liu Xiaoguang, LiYongqiang, etal. Research re-
+程度RAW为0.880 56 ~ 0.880 84。从上述钢桁架
+view on evaluation of fracture resistance of high strength steel for
+的实例分析可以发现,所提方法不仅适用于实际工
+bridges[J]. Railway Engineering, 2019, 59(4): 1-10.
+程项目,并且还能为其重要性程度评价提供理论
+[8]高菁媛,赵继涛,朱富佳,等.钢架组合应力分析[J].经济
+参考。师, 2020(2): 287-288.
+Gao Jingyuan, Zhao Jitao, Zhu Fujia, etal. Stressanalysisofsteel
+4　结论
+frame combinations[J]. Economist, 2020(2): 287-288.
+[9]昌毅,余柳明,江元琪,等.含裂纹损伤钢构件塑性性能分析
+针对静定钢结构中潜在脆性破坏构件的重要
+方法[J].塑性工程学报, 2023, 30(5): 157-165.
+性展开研究,提出潜在脆性破坏构件重要性程度的
+Chang Yi, Yu Liuming, Jiang Yuanqi, etal. Analysis method for
+分析方法,并研究构件总数量、相关系数、潜在脆性plastic propertiesofsteelmemberswith crack damage[J]. Chinese
+破坏构件的数量、可靠度指标等参数对潜在脆性破JournalofPlasticity Engineering, 2023, 30(5): 157-165.
+[10]徐丽丽.关于钢结构脆性破坏问题研究综述[J].黑龙江科技
+坏构件重要性程度的影响。然后将该方法成功运
+信息, 2013(6): 236.
+用于工程实例中,结合工程实例得出以下结论。
+Xu Lili. A review ofresearch on brittle failure problems ofsteel
+(1)潜在脆性破坏构件重要性程度与相关系
+structures[J]. Heilongjiang Science and Technology Information,
+数、构件总数量、潜在脆性破坏构件数量等参数成2013(6): 236.
+正相关的关系。[11]昌毅,江元琪,邹杨洋,等.含共线等长双裂纹损伤钢构件的
+力学试验及分析[J].科学技术与工程, 2023, 23 (23):
+(2)潜在脆性破坏构件的重要性程度与可靠度
+10030-10038.
+指标呈负相关的关系。
+Chang Yi, Jiang Yuanqi, Zou Yangyang, etal. M echanicaltests
+and analysisofsteelstructuralmemberswith collinearequal-length
+参考文献
+double cracksdamage[J]. Science Technology and Engineering,
+[1]杜友福,袁葵,辛明明.静定结构和超静定结构工程应用探讨2023, 23(23): 10030-10038.
+[J].建材世界, 2016, 37(6): 49-52. [12]磨恬静.关于钢结构脆性破坏的认识与分析[J].中国设备工
+Du Youfu, Yuan Kui, Xin M ingming. Discussion on the engineer-程, 2023(16): 84-86.
+ing application of static structures and hyperstatic structures[J]. M o Tianjing. Understanding and analysisofbrittle fracture in steel
+Building M aterialsW orld, 2016, 37(6): 49-52. structures[J]. ChinaEquipmentEngineering,2023(16):84-86.
+[2]单建,吕令毅.结构力学[M ].南京:东南大学出版社, 2022. [13]昌毅,邹杨洋,江元琪,等.不同角度含裂纹损伤钢构件拉伸
+Shan Jian, LüLingyi. Structuralmechanics[M ]. Nanjing: South-试验与分析[ J].科学技术与工程, 2022, 22 (24):
+eastUniversity Press, 2022. 10654-10661.
+[3]王元清,林云,周晖,等.高强度钢材及其焊缝脆性断裂与疲Chang Yi, Zou Yangyang, Jiang Yuanqi, etal. Tensile tests and
+劳性能的研究进展[J].建筑钢结构进展, 2012, 14(5): analysisofsteelstructuralmemberswith crack damage atdifferent
+21-28. angles[J]. Science Technology and Engineering, 2022,22(24):
+W ang Yuanqing, Lin Yun, Zhou Hui, etal. Research progress on 10654-10661.
+brittle fractureand fatiguepropertiesofhigh strength steelsand their [14]买彦硕.含潜在脆性破坏构件的钢结构串联系统可靠性分析
+welds[J]. Progress in Building SteelStructures, 2012, 14(5): [D].南昌:东华理工大学, 2019.
+21-28. M aiYanshuo. Reliability analysisofsteelstructuralseriessystems
+[4]赵冲,蒋媛媛,黄嘉欢,等.梁端削弱形式对火灾下钢框架抗with potential brittle failure components[D ]. Nanchang: East
+连续倒塌性能影响[J].科学技术与工程, 2024, 24(22): China University ofTechnology, 2019.
+投稿网址:www.stae.com.cn
+
+===== PAGE 10 =====
+科　学　技　术　与　工　程
+3904 Science Technology and Engineering 2026,26(9)
+[15]邹杨洋.含不同角度裂纹损伤钢构件力学试验及脆性性能概Nie Qi, W ang Renpeng, Luo Yongfeng. Research on the current
+率分析研究[D].南昌:东华理工大学, 2023. status ofevaluation and classification methodsfortheimportanceof
+Zou Yangyang. M echanicaltestsand probabilistic analysis ofbrit- existing structural members [C]//2018 National Conference on
+tle propertiesofsteelmembers with crack damage atdifferentan- Construction SteelStructure Industry. Shanghai: China Construc-
+gles[D]. Nanchang: EastChina University ofTechnology, 2023. tion M etalStructure Association, ShanghaiM etalStructure Indus-
+[16] FussellJ B. How to hand-calculate system reliability characteris- try Association, 2018: 2-5.
+tics[ J]. Reliability IEEE Transactions on, 1975, 24 (3): [20] Chang Y, M ori Y. A study on the relaxed linear programming
+169-174. boundsmethod forsystem reliability[J]. StructuralSafety, 2013,
+[17] Borgonovo E, Apostolakis G E. A new importance measure for 41: 64-72.
+risk-informed decision making[J]. Reliability Engineering & Sys- [21] DerKiureghian A, Song J. M ulti-scale reliability analysisand up-
+tem Safety, 2001, 72(2): 193-212. dating ofcomplex systemsby use oflinearprogramming[J]. Reli-
+[18] Vinod G, Kushwaha H S, Verma A K, etal. Importance meas- ability Engineering & System Safety, 2008, 93(2): 288-297.
+uresin ranking piping components forrisk informed in-service in- [22]蔡梦非,顾民杰,吴万忠,等.株洲清水塘大桥双层钢桁拱桥
+spection[J]. Reliability Engineering and System Safety, 2003,下部结构设计[J].城市道桥与防洪, 2022(9): 91-94.
+80: 107-113. CaiM engfei, Gu M injie, W u W anzhong, et al. Design of sub-
+[19]聂琪,王人鹏,罗永峰.既有结构构件重要性评价及分类方structure for Zhuzhou Qingshuitang double-deck steel truss arch
+法研究现状[C]//2018年全国建筑钢结构行业大会.上海: bridge[J]. Urban RoadsBridges& Flood Control, 2022(9): 91-
+中国建筑金属结构协会,上海市金属结构行业协会, 2018: 94.
+2-5.
+投稿网址:www.stae.com.cn

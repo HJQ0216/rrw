@@ -1,0 +1,948 @@
+﻿{
+    "tldrawFileFormatVersion":  1,
+    "schema":  {
+                   "schemaVersion":  1,
+                   "storeVersion":  4,
+                   "recordVersions":  {
+                                          "asset":  {
+                                                        "version":  1,
+                                                        "subTypeKey":  "type",
+                                                        "subTypeVersions":  {
+                                                                                "image":  2,
+                                                                                "video":  2,
+                                                                                "bookmark":  0
+                                                                            }
+                                                    },
+                                          "camera":  {
+                                                         "version":  1
+                                                     },
+                                          "document":  {
+                                                           "version":  2
+                                                       },
+                                          "instance":  {
+                                                           "version":  17
+                                                       },
+                                          "instance_page_state":  {
+                                                                      "version":  3
+                                                                  },
+                                          "page":  {
+                                                       "version":  1
+                                                   },
+                                          "shape":  {
+                                                        "version":  3,
+                                                        "subTypeKey":  "type",
+                                                        "subTypeVersions":  {
+                                                                                "group":  0,
+                                                                                "embed":  4,
+                                                                                "bookmark":  1,
+                                                                                "image":  2,
+                                                                                "text":  1,
+                                                                                "draw":  1,
+                                                                                "geo":  7,
+                                                                                "line":  0,
+                                                                                "note":  4,
+                                                                                "frame":  0,
+                                                                                "arrow":  1,
+                                                                                "highlight":  0,
+                                                                                "video":  1
+                                                                            }
+                                                    },
+                                          "instance_presence":  {
+                                                                    "version":  4
+                                                                },
+                                          "pointer":  {
+                                                          "version":  1
+                                                      }
+                                      }
+               },
+    "records":  [
+                    {
+                        "id":  "document:document",
+                        "typeName":  "document",
+                        "gridSize":  10,
+                        "name":  "",
+                        "meta":  {
+
+                                 }
+                    },
+                    {
+                        "id":  "page:page1",
+                        "typeName":  "page",
+                        "name":  "两轮分析流程",
+                        "index":  "a1",
+                        "meta":  {
+
+                                 }
+                    },
+                    {
+                        "id":  "shape:frame1",
+                        "typeName":  "shape",
+                        "type":  "frame",
+                        "parentId":  "page:page1",
+                        "index":  "a1",
+                        "x":  100,
+                        "y":  220,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  3000,
+                                      "h":  1150,
+                                      "name":  "第一轮｜单参数分析（论文第2.3.1节）",
+                                      "color":  "blue"
+                                  }
+                    },
+                    {
+                        "id":  "shape:frame2",
+                        "typeName":  "shape",
+                        "type":  "frame",
+                        "parentId":  "page:page1",
+                        "index":  "a2",
+                        "x":  100,
+                        "y":  1540,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  3000,
+                                      "h":  1150,
+                                      "name":  "第二轮｜多参数分析（论文第2.3.2节）",
+                                      "color":  "violet"
+                                  }
+                    },
+                    {
+                        "id":  "shape:title",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "page:page1",
+                        "index":  "a3",
+                        "x":  650,
+                        "y":  30,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  1900,
+                                      "h":  90,
+                                      "geo":  "rectangle",
+                                      "color":  "black",
+                                      "labelColor":  "black",
+                                      "fill":  "none",
+                                      "dash":  "solid",
+                                      "size":  "l",
+                                      "font":  "sans",
+                                      "text":  "当前两轮任务：单参数分析 → 多参数分析",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:subtitle",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "page:page1",
+                        "index":  "a4",
+                        "x":  900,
+                        "y":  130,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  1400,
+                                      "h":  60,
+                                      "geo":  "rectangle",
+                                      "color":  "yellow",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "m",
+                                      "font":  "sans",
+                                      "text":  "顺序要求：第一轮计算和校核通过后，再启动第二轮",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s1",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "a5",
+                        "x":  80,
+                        "y":  100,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  300,
+                                      "h":  110,
+                                      "geo":  "oval",
+                                      "color":  "green",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "m",
+                                      "font":  "sans",
+                                      "text":  "开始第一轮\n整理26组参数",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s2",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "a6",
+                        "x":  460,
+                        "y":  70,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  760,
+                                      "h":  500,
+                                      "geo":  "rectangle",
+                                      "color":  "light-blue",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "参数A｜相关系数ρ（5组）\nρ=0.1、0.3、0.5、0.7、0.9\n固定：n=8，n1=1，β=3.0，Pbi=0.2\n\n参数B｜构件总数n（11组）\nn=8、12、16、…、48，步长4\n固定：n1=1，β=3.0，ρ=0.1，Pbi=0.2\n\n参数C｜可靠指标β（7组）\nβ=3.0、3.1、…、3.6，步长0.1\n固定：n=10，n1=1，ρ=0.1，Pbi=0.2\n\n参数D｜潜在脆性构件数n1（3组）\nn1=1、2、3\n固定：n=8，β=3.0，ρ=0.1，Pbi=0.2",
+                                      "align":  "start",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s3",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "a7",
+                        "x":  1300,
+                        "y":  130,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  440,
+                                      "h":  270,
+                                      "geo":  "rectangle",
+                                      "color":  "orange",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "dashed",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "每组准备三套计算数据\n\nS：原系统\nS_-i：删除目标构件\nS_i+：保留目标构件，\n同时令其完全可靠",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s4",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "a8",
+                        "x":  1820,
+                        "y":  140,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  440,
+                                      "h":  220,
+                                      "geo":  "rectangle",
+                                      "color":  "green",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "交给导师计算\n\n分别返回：\nPf下界、Pf上界\nRLP状态、最大残差",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s5",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "a9",
+                        "x":  2340,
+                        "y":  80,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  560,
+                                      "h":  440,
+                                      "geo":  "rectangle",
+                                      "color":  "blue",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "回填Excel并计算\n\nRAW_L=Pf_L(S_-i)/Pf_U(S)\nRAW_U=Pf_U(S_-i)/Pf_L(S)\nRAW平均=(RAW_L+RAW_U)/2\n\nRRW_L=Pf_L(S)/Pf_U(S_i+)\nRRW_U=Pf_U(S)/Pf_L(S_i+)\nRRW代表值=(RRW_L+RRW_U)/2",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s6",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "aA",
+                        "x":  2220,
+                        "y":  650,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  440,
+                                      "h":  230,
+                                      "geo":  "diamond",
+                                      "color":  "yellow",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "结果是否通过校核？\n0≤Pf下界≤Pf上界≤1\nRAW趋势与论文一致\nRRW≥1，RLP状态正常",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s7",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "aB",
+                        "x":  1240,
+                        "y":  650,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  800,
+                                      "h":  250,
+                                      "geo":  "rectangle",
+                                      "color":  "violet",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "绘制4组单参数曲线\n\nρ、n、β、n1 分别对 RAW 与 RRW 的影响\n比较变化方向、变化幅度和敏感程度\n总结RAW与RRW结论是否一致",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:s8",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame1",
+                        "index":  "aC",
+                        "x":  280,
+                        "y":  680,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  660,
+                                      "h":  180,
+                                      "geo":  "check-box",
+                                      "color":  "green",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "m",
+                                      "font":  "sans",
+                                      "text":  "第一轮完成\n形成4组曲线和单参数结论",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m1",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aD",
+                        "x":  280,
+                        "y":  90,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  660,
+                                      "h":  170,
+                                      "geo":  "oval",
+                                      "color":  "green",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "m",
+                                      "font":  "sans",
+                                      "text":  "第一轮通过后\n开始第二轮：整理171组参数",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m2",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aE",
+                        "x":  1030,
+                        "y":  60,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  860,
+                                      "h":  500,
+                                      "geo":  "rectangle",
+                                      "color":  "light-violet",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "参数组合A｜ρ × n1（27组）\nρ=0.1～0.9，步长0.1；n1=1、2、3\n固定：n=8，β=3.0，Pbi=0.2\n\n参数组合B｜n × n1（36组）\nn=8～52，步长4；n1=1、2、3\n固定：ρ=0.3，β=3.0，Pbi=0.2\n\n参数组合C｜n × ρ（108组）\nn=8～52，步长4；ρ=0.1～0.9，步长0.1\n固定：n1=1，β=3.0，Pbi=0.2\n\n合计：27+36+108=171组",
+                                      "align":  "start",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m3",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aF",
+                        "x":  1980,
+                        "y":  130,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  440,
+                                      "h":  270,
+                                      "geo":  "rectangle",
+                                      "color":  "orange",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "dashed",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "每组仍准备三套计算数据\n\nS：原系统\nS_-i：删除目标构件\nS_i+：保留目标构件，\n同时令其完全可靠",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m4",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aG",
+                        "x":  2510,
+                        "y":  140,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  390,
+                                      "h":  220,
+                                      "geo":  "rectangle",
+                                      "color":  "green",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "交给导师批量计算\n\n返回三套Pf上下界\n以及RLP状态、最大残差",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m5",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aH",
+                        "x":  2260,
+                        "y":  600,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  640,
+                                      "h":  400,
+                                      "geo":  "rectangle",
+                                      "color":  "blue",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "回填Excel并批量计算\n\nRAW、RRW上下界的计算公式与第一轮相同\n平均值取各指标上下界的算术平均\n\n逐行检查：\n概率范围、上下界次序、RRW≥1\nRLP状态与残差是否正常",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m6",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aI",
+                        "x":  1640,
+                        "y":  680,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  440,
+                                      "h":  230,
+                                      "geo":  "diamond",
+                                      "color":  "yellow",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "结果是否通过校核？\n参数数量与范围正确\n重合点结果一致\n曲面趋势连续、无异常跳变",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m7",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aJ",
+                        "x":  680,
+                        "y":  640,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  800,
+                                      "h":  270,
+                                      "geo":  "rectangle",
+                                      "color":  "violet",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "s",
+                                      "font":  "sans",
+                                      "text":  "绘制3组曲面或等值线图\n\nρ×n1、n×n1、n×ρ\n比较两个参数共同变化时的主效应与交互效应\n逐图对照论文RAW，再绘制对应RRW图",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:m8",
+                        "typeName":  "shape",
+                        "type":  "geo",
+                        "parentId":  "shape:frame2",
+                        "index":  "aK",
+                        "x":  80,
+                        "y":  690,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "w":  480,
+                                      "h":  180,
+                                      "geo":  "check-box",
+                                      "color":  "green",
+                                      "labelColor":  "black",
+                                      "fill":  "semi",
+                                      "dash":  "solid",
+                                      "size":  "m",
+                                      "font":  "sans",
+                                      "text":  "第二轮完成\n形成3组曲面和多参数结论",
+                                      "align":  "middle",
+                                      "verticalAlign":  "middle",
+                                      "growY":  0,
+                                      "url":  ""
+                                  }
+                    },
+                    {
+                        "id":  "shape:a1",
+                        "typeName":  "shape",
+                        "type":  "arrow",
+                        "parentId":  "page:page1",
+                        "index":  "aL",
+                        "x":  0,
+                        "y":  0,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "dash":  "draw",
+                                      "size":  "m",
+                                      "fill":  "none",
+                                      "color":  "black",
+                                      "labelColor":  "black",
+                                      "bend":  0,
+                                      "start":  {
+                                                    "type":  "binding",
+                                                    "boundShapeId":  "shape:s1",
+                                                    "normalizedAnchor":  {
+                                                                             "x":  1,
+                                                                             "y":  0.5
+                                                                         },
+                                                    "isExact":  false
+                                                },
+                                      "end":  {
+                                                  "type":  "binding",
+                                                  "boundShapeId":  "shape:s2",
+                                                  "normalizedAnchor":  {
+                                                                           "x":  0,
+                                                                           "y":  0.25
+                                                                       },
+                                                  "isExact":  false
+                                              },
+                                      "arrowheadStart":  "none",
+                                      "arrowheadEnd":  "arrow",
+                                      "text":  "",
+                                      "font":  "sans"
+                                  }
+                    },
+                    {
+                        "id":  "shape:a2",
+                        "typeName":  "shape",
+                        "type":  "arrow",
+                        "parentId":  "page:page1",
+                        "index":  "aM",
+                        "x":  0,
+                        "y":  0,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "dash":  "draw",
+                                      "size":  "m",
+                                      "fill":  "none",
+                                      "color":  "black",
+                                      "labelColor":  "black",
+                                      "bend":  0,
+                                      "start":  {
+                                                    "type":  "binding",
+                                                    "boundShapeId":  "shape:s2",
+                                                    "normalizedAnchor":  {
+                                                                             "x":  1,
+                                                                             "y":  0.35
+                                                                         },
+                                                    "isExact":  false
+                                                },
+                                      "end":  {
+                                                  "type":  "binding",
+                                                  "boundShapeId":  "shape:s3",
+                                                  "normalizedAnchor":  {
+                                                                           "x":  0,
+                                                                           "y":  0.5
+                                                                       },
+                                                  "isExact":  false
+                                              },
+                                      "arrowheadStart":  "none",
+                                      "arrowheadEnd":  "arrow",
+                                      "text":  "",
+                                      "font":  "sans"
+                                  }
+                    },
+                    {
+                        "id":  "shape:a3",
+                        "typeName":  "shape",
+                        "type":  "arrow",
+                        "parentId":  "page:page1",
+                        "index":  "aN",
+                        "x":  0,
+                        "y":  0,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "dash":  "draw",
+                                      "size":  "m",
+                                      "fill":  "none",
+                                      "color":  "black",
+                                      "labelColor":  "black",
+                                      "bend":  0,
+                                      "start":  {
+                                                    "type":  "binding",
+                                                    "boundShapeId":  "shape:s3",
+                                                    "normalizedAnchor":  {
+                                                                             "x":  1,
+                                                                             "y":  0.5
+                                                                         },
+                                                    "isExact":  false
+                                                },
+                                      "end":  {
+                                                  "type":  "binding",
+                                                  "boundShapeId":  "shape:s4",
+                                                  "normalizedAnchor":  {
+                                                                           "x":  0,
+                                                                           "y":  0.5
+                                                                       },
+                                                  "isExact":  false
+                                              },
+                                      "arrowheadStart":  "none",
+                                      "arrowheadEnd":  "arrow",
+                                      "text":  "",
+                                      "font":  "sans"
+                                  }
+                    },
+                    {
+                        "id":  "shape:a4",
+                        "typeName":  "shape",
+                        "type":  "arrow",
+                        "parentId":  "page:page1",
+                        "index":  "aO",
+                        "x":  0,
+                        "y":  0,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "dash":  "draw",
+                                      "size":  "m",
+                                      "fill":  "none",
+                                      "color":  "black",
+                                      "labelColor":  "black",
+                                      "bend":  0,
+                                      "start":  {
+                                                    "type":  "binding",
+                                                    "boundShapeId":  "shape:s4",
+                                                    "normalizedAnchor":  {
+                                                                             "x":  1,
+                                                                             "y":  0.5
+                                                                         },
+                                                    "isExact":  false
+                                                },
+                                      "end":  {
+                                                  "type":  "binding",
+                                                  "boundShapeId":  "shape:s5",
+                                                  "normalizedAnchor":  {
+                                                                           "x":  0,
+                                                                           "y":  0.35
+                                                                       },
+                                                  "isExact":  false
+                                              },
+                                      "arrowheadStart":  "none",
+                                      "arrowheadEnd":  "arrow",
+                                      "text":  "",
+                                      "font":  "sans"
+                                  }
+                    },
+                    {
+                        "id":  "shape:a5",
+                        "typeName":  "shape",
+                        "type":  "arrow",
+                        "parentId":  "page:page1",
+                        "index":  "aP",
+                        "x":  0,
+                        "y":  0,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "dash":  "draw",
+                                      "size":  "m",
+                                      "fill":  "none",
+                                      "color":  "black",
+                                      "labelColor":  "black",
+                                      "bend":  20,
+                                      "start":  {
+                                                    "type":  "binding",
+                                                    "boundShapeId":  "shape:s5",
+                                                    "normalizedAnchor":  {
+                                                                             "x":  0.5,
+                                                                             "y":  1
+                                                                         },
+                                                    "isExact":  false
+                                                },
+                                      "end":  {
+                                                  "type":  "binding",
+                                                  "boundShapeId":  "shape:s6",
+                                                  "normalizedAnchor":  {
+                                                                           "x":  0.75,
+                                                                           "y":  0
+                                                                       },
+                                                  "isExact":  false
+                                              },
+                                      "arrowheadStart":  "none",
+                                      "arrowheadEnd":  "arrow",
+                                      "text":  "",
+                                      "font":  "sans"
+                                  }
+                    },
+                    {
+                        "id":  "shape:a6",
+                        "typeName":  "shape",
+                        "type":  "arrow",
+                        "parentId":  "page:page1",
+                        "index":  "aQ",
+                        "x":  0,
+                        "y":  0,
+                        "rotation":  0,
+                        "isLocked":  false,
+                        "opacity":  1,
+                        "meta":  {
+
+                                 },
+                        "props":  {
+                                      "dash":  "draw",
+                                      "size":  "m",
+                                      "fill":  "none",
+                                      "color":  "black",
+                                      "labelColor":  "black",
+                                      "bend":  0,
+                                      "start":  {
+                                                    "type":  "binding",
+                                                    "boundShapeId":  "shape:s6",
+                                                    "normalizedAnchor":  {
+                                                                             "x":  0,
+                                                                             "y":  0.5
+                                                                         },
+                                                    "isExact":  false
+                                                },
+                                      "end":  {
+                                                  "type":  "binding",
+                                                  "boundShapeId":  "shape:s7",
+                                                  "normalizedAnchor":  {
+                                                                           "x":  1,
+                                                                           "y":  0.5
+                                                                       },
+                                                  "isExact":  false
+                                              },
+                                      "arrowheadStart":  "none",
+                                      "arrowheadEnd":  "arrow",
+                                      "text":  "是",
+                                      "font":  "sans"
+                                  }
+                    }
+                ]
+}

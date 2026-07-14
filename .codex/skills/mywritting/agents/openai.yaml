@@ -1,0 +1,4 @@
+interface:
+  display_name: "mywritting 学术排版"
+  short_description: "复现师兄毕业论文与期刊论文的写作排版格式"
+  default_prompt: "Use $mywritting to format this academic manuscript in the matching thesis or journal style."
