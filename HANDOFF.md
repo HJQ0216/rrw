@@ -187,17 +187,18 @@ RRW_U=\frac{P_{f,U}(S)}{P_{f,L}(S_i^+)}
 - 工作目录：D:\钢结构RRW方向
 - 已于 2026-07-14 在当前工作目录初始化新的 Git 仓库。
 - 当前分支：main。
-- 当前尚无提交。
-- 已执行 `git add .`，共 389 个文件进入暂存区。
-- Git 用户名和邮箱尚未配置，因此初始提交尚未执行。
-- 尚未配置远程仓库 `origin`，也尚未推送。
+- 本仓库提交身份：`HJQ0216 <HJQ0216@users.noreply.github.com>`。
+- 初始项目提交：`5c6c689 Save work and handoff context`。
+- 远程仓库：`origin = https://github.com/HJQ0216/rrw.git`。
+- 远程仓库为 GitHub 私有仓库。
+- `main` 已成功推送至 `origin/main`，并已建立上游跟踪关系。
 
 因此：
 
-- 本地仓库初始化与文件暂存已经完成。
-- 待取得 Git 用户名、邮箱和远程仓库 URL 后，依次完成提交、添加 `origin` 和推送 `main` 分支。
+- 本地仓库初始化、初始提交、远程配置与首次推送均已完成。
+- 另一台电脑可通过 `git clone https://github.com/HJQ0216/rrw.git` 获取完整项目。
 
-计划使用的提交信息为：`Save work and handoff context`。
+后续每次开始工作前先执行 `git pull --ff-only`；完成一轮修改后再提交并推送。Word、Excel 等二进制文件不要在两台电脑上同时修改。
 
 ## 5. 已验证的测试
 
