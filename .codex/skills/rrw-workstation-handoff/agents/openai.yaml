@@ -1,0 +1,4 @@
+interface:
+  display_name: "RRW 双电脑交接"
+  short_description: "安全同步 RRW 项目并在两台电脑间连续接手"
+  default_prompt: "Use $rrw-workstation-handoff to safely hand off or resume the RRW research project between my two computers."

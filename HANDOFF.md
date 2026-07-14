@@ -125,9 +125,13 @@ RRW_U=\frac{P_{f,U}(S)}{P_{f,L}(S_i^+)}
 
 已创建自定义技能 **mywritting**，用于复现和检查师兄论文、小论文的字体、标题层级、图表题注、公式、目录、页眉页脚、中文／英文格式及参考文献格式。工作区副本和用户级安装副本均存在。
 
+### 2.7 双电脑交接技能
+
+已创建项目级技能 **rrw-workstation-handoff**，用于在两台电脑之间安全交接本项目。技能支持“离开当前电脑”“在当前电脑接手”和“首次克隆”三种流程，并强制检查分支、远程仓库、工作区状态、`HANDOFF.md`、快进拉取和推送结果。技能禁止强制推送、自动丢弃本地修改和自动处理分支分歧。
+
 ## 3. 修改过的文件
 
-由于当前目录没有有效 Git 仓库，无法通过提交历史精确恢复全部修改时间线。以下为本任务中已知的主要生成或修改文件。
+当前目录已纳入 Git 版本管理。以下列出本项目的主要生成或修改文件；完整时间线以 `main` 分支提交历史为准。
 
 ### 3.1 主要交付文件
 
@@ -150,6 +154,8 @@ RRW_U=\frac{P_{f,U}(S)}{P_{f,L}(S_i^+)}
 - .codex/skills/mywritting/references/journal-format.md
 - .codex/skills/mywritting/references/qa-checklist.md
 - 用户级安装副本：C:\Users\rain\.codex\skills\mywritting\
+- .codex/skills/rrw-workstation-handoff/SKILL.md
+- .codex/skills/rrw-workstation-handoff/agents/openai.yaml
 
 ### 3.3 支持脚本与检查文件
 
@@ -322,6 +328,8 @@ RRW_U=\frac{P_{f,U}(S)}{P_{f,L}(S_i^+)}
    - 先确认标准 RRW 在并联系统中的定义是否退化。
    - 再制定蒙特卡洛样本量、置信区间和收敛检查方案。
 
-8. **恢复工程管理能力**
+8. **电脑切换与版本管理**
    - 如需继续编辑流程图，重建最新 .tldr。
-   - 如需版本控制，先确认 Git 仓库来源，再恢复或初始化仓库。
+   - 切换工作电脑时调用 `rrw-workstation-handoff` 技能。
+   - 离开一台电脑前完成提交与推送；另一台电脑接手前执行快进拉取并完整阅读 `HANDOFF.md`。
+   - Word、Excel 等二进制文件不得在两台电脑上同时修改。
