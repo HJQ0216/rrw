@@ -1,0 +1,20 @@
+# Local extraction and visual-inspection scratch files
+/.tmp_thesis_figures/
+/.codex_read/formula_png/
+/.codex_read/formula_white/
+
+# Origin machine-local configuration generated in the workspace root
+/KeyChords.ini
+/NLSF.ini
+/NLSFwiz_OPS.bmp
+/NLSFwizard.ini
+/OIMG.INI
+/OPDF.INI
+/Origin.ini
+/OriginProjHistory.txt
+/Template.ini
+/labtalk.py
+
+# Origin machine configuration archive and QA-only exports
+/Origin相关文件/配置记录/
+/Origin相关文件/图像输出/测试图/

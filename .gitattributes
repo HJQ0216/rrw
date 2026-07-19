@@ -1,0 +1,34 @@
+# Text files with stable line endings across the two Windows workstations
+*.md text eol=lf
+*.svg text eol=lf
+*.tsv text eol=lf
+*.ps1 text eol=crlf
+*.ogs text eol=crlf
+*.c text eol=crlf
+*.h text eol=crlf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+
+# Research documents, Origin projects, Office files, and images are binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.xls binary
+*.pptx binary
+*.opju binary
+*.opj binary
+*.wbpj binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.bmp binary
+*.wmf binary
+*.emf binary
+*.wdp binary
+*.bin binary
+*.zip binary
+*.lnk binary

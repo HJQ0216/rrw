@@ -1,0 +1,8 @@
+// Origin LabTalk smoke test. This workbook will be deleted after verification.
+newbook name:=TestBook sheet:=1;
+wks.nCols = 2;
+col(1) = {1, 2, 3};
+col(2) = {2, 3, 4};
+wks.col1.type = 4;
+wks.col1.lname$ = "X";
+wks.col2.lname$ = "Y";
